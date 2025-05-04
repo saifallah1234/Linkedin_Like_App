@@ -1,0 +1,16 @@
+#imghub{
+    -fx-background-image:url("../images/img.jpg");
+}
+.combo-box .list-cell{
+    -fx-text-fill:white;
+}
+.combo-box .list-view .list-cell{
+    -fx-text-fill:black;
+}
+.combo-box .list-view .list-cell:focused{
+    -fx-text-fill:white;
+}
+.combo-box .list-view .list-cell:hover{
+    -fx-text-fill:white;
+}
+

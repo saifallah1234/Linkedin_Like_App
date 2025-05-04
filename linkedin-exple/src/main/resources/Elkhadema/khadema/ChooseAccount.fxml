@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" style="-fx-background-color: linear-gradient(to bottom, #0000cc 0%, #0099ff 100%);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Elkhadema.khadema.controller.ChooseAccountController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0">
+         <left>
+            <AnchorPane prefHeight="500.0" prefWidth="308.0" style="-fx-background-color: #2c0f95;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="82.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="700.0" prefWidth="718.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="36.0" layoutY="284.0" prefHeight="246.0" prefWidth="217.0" style="-fx-background-color: linear-gradient(to bottom, #ff00ff 0%, #ffffff 100%); -fx-background-radius: 20px;">
+                     <children>
+                        <FontAwesomeIcon glyphName="USER" layoutX="82.0" layoutY="82.0" size="4.5em" />
+                        <Hyperlink layoutX="86.0" layoutY="182.0" onAction="#user" text="User">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Hyperlink>
+                        <Text layoutX="28.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connect to user account" />
+                     </children></Pane>
+                  <Pane layoutX="343.0" layoutY="284.0" prefHeight="245.0" prefWidth="217.0" style="-fx-background-color: linear-gradient(to bottom, #ff00ff 0%, #ffffff 100%); -fx-background-radius: 20px;">
+                     <children>
+                        <FontAwesomeIcon glyphName="USERS" layoutX="72.0" layoutY="80.0" size="4.5em" />
+                        <Hyperlink layoutX="67.0" layoutY="182.0" onAction="#company" text="Company">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Hyperlink>
+                        <Text layoutX="11.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connect to company account" />
+                     </children></Pane>
+                  <Text fill="#2c0f95" layoutX="89.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your account type">
+                     <font>
+                        <Font name="Franklin Gothic Heavy" size="34.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="57.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font name="Franklin Gothic Heavy" size="34.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose the account type that fits your needs:" />
+                  <Text layoutX="14.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Either an enterprise account for professionals or a user account." />
+                  <Text fill="#2c0f95" layoutX="57.0" layoutY="603.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't you have an account?">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="296.0" layoutY="576.0" text="Sign Up">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</VBox>

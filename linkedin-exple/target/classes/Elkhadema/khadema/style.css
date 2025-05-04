@@ -1,0 +1,130 @@
+.navb {
+    -fx-background-color: #2e536d;
+
+}
+
+.navbarbuttons {
+ -fx-background-color: #2f1c6400;
+ 
+}
+.navbarbuttons:hover {
+    -fx-background-color: #226697;
+  }
+
+.postButton {
+    -fx-background-color: #0095fe;
+    -fx-background-radus : 30;
+    -fx-effect: dropshadow(three-pass-box, #444444a4, 10, 0.5, 3, 3);   
+}
+.likebutton {
+    -fx-background-color: #00000000;
+    
+}
+.likebutton:hover {
+    -fx-border-width: 0 0 1 0; -fx-border-color: rgba(75, 73, 73, 0.808);
+    -fx-transition: color 0.3s;
+
+    
+}
+.bgcol {
+    -fx-background-color:  linear-gradient(to bottom, #226697 0%, #0099ff93 100%);
+}
+.feedcolor {
+    -fx-background-color:  linear-gradient(to bottom, #226697 0%, #0099ffa9 100%);
+}
+
+.posts {
+    -fx-border-radius: 20px;
+    -fx-border-color : rgba(103, 102, 110, 0.795);
+    -fx-background-color: #0000002a;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, #444444a4, 10, 0.5, 3, 3);
+}
+
+.txtfield {
+    -fx-effect: dropshadow(three-pass-box, #444444a4, 10, 0.5, 3, 3);
+}
+.postTxtField {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+    -fx-background : transparent;
+    -fx-border-width: 0 0 1 0; -fx-border-color: rgba(75, 73, 73, 0.808);
+    
+    
+}
+.userTxtField {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+    -fx-background : transparent;
+ 
+    
+    
+}
+.scrollStyle {
+    -fx-scrollbar-background: transparent;
+    -fx-scrollbar: transparent;
+    -fx-scrollbar-thumb: transparent;
+}
+.friendlist:hover {
+    -fx-background-color: #0000002a;
+    -fx-background-radius: 20px;
+
+}
+
+.scrollerbar {
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+    -fx-background : transparent;
+}
+
+.shadoweffect {
+    -fx-effect: dropshadow(three-pass-box, #444444e8, 10, 0.5, 3, 3)
+}
+
+.borderleft {
+    -fx-border-width: 0 1 0 0; -fx-border-color: rgba(75, 73, 73, 0.808);
+}
+
+.hideimg{
+    -fx-opacity: 0.5; -fx-effect: grayscale;
+}
+
+
+.searchbox{
+    -fx-background-color: #fffffff3;
+    -fx-background-radius: 20px;
+}
+.searchtext{
+    -fx-background-color : transparent;
+}
+.searchbutton {
+    -fx-background-color: #0095fe;
+    -fx-background-radius: 20px;
+
+}
+
+
+.notificationPannel {
+    -fx-border-radius: 20px;
+    -fx-border-color : rgba(103, 102, 110, 0.795);
+    -fx-background-color: #0000002a;
+    -fx-background-radius: 20px;
+    -fx-control-inner-background: transparent;
+    -fx-background : transparent;
+    -fx-effect: dropshadow(three-pass-box, #444444a4, 10, 0.5, 3, 3);
+}
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+
+
+}
+.aceeptbutton {
+    -fx-background-color: #14A44D;
+}
+
+.rejectButton {
+    -fx-background-color: #DC4C64;
+
+}
